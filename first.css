@@ -1,0 +1,233 @@
+* {
+    margin:0; padding:0; box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 90px;
+    scroll-behavior: smooth;
+  }
+  #container{
+    margin: 0 20px;
+    font-family: Arial;
+  }
+   #header{
+    width:100%;
+    height:70px;
+    position: fixed;
+    top: 0; 
+   }
+   .menu ul{
+     height:70px; 
+     background-color:cornflowerblue;
+     margin-right: 40px;
+   }
+   
+ul{
+    /* width:100%;
+     height:70px;   */
+    /* background-color:cornflowerblue; */
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    list-style: none;
+    padding-right: 30px;
+}
+li>a{
+    padding:25px 20px;
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    
+}
+li a:hover{
+    background-color: white;
+    color:black; 
+}
+
+#banner{
+    width:100%;
+    height:600px;
+    /* background-color: blueviolet; */
+     margin-top:80px;   
+}
+#banner{
+    background-image: url(student.jpg);
+    /* background-size: cover; */
+    background-size:100% 600px ;
+    background-position: center;   
+}
+
+#section-1{
+    height:310px;
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.circle{
+    width:250px;
+    height:250px;
+    background-color: chocolate;
+    border-radius: 100%;
+}
+ #circle1{
+    background-image:url(img.png);
+    background-size:cover;  
+}
+#circle2{
+    background-image:url(img3.png);
+  background-size:cover;  
+}
+#circle3{
+    background-image:url(img3.jpg);
+    background-size:cover;
+}
+#circle4{
+    background-image:url(img7.png);
+    background-size:cover;
+ 
+}
+  #left-side{
+  width: 50%;
+  height: 500px;
+  background-color:gray;
+  float: left;
+  margin-right:20px;
+  
+  }
+  #left-p>h2{
+        text-align: left;
+        font-size: 30px;
+        color:white;
+        margin-bottom:20px;
+        padding-left: 10px;
+  }
+  #left-p>p{
+    text-align: left;
+    text-align: justify;
+    font-size: 2opx;
+    line-height: 20px;
+    color:white;
+    padding:0 8px;
+  }
+  #right-side{
+    width:100%;
+    height:500px;
+    
+  }
+  .project{
+    height: 31%;
+    background-color: chocolate;
+    display: flex;
+    justify-content:left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    overflow: hidden;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    /* margin bottom ki wajah se sbhi box me gap aayega */
+  }
+  #p1{
+    background-image: url(p3.jpg);
+    background-size:cover;
+    background-position: center;
+  }
+  #p2{
+    background-image: url(project-based-learning.jpg);
+    background-size:cover;
+    background-position: center;
+  }
+  #p3{
+    background-image: url(p1.jpg);
+    background-size:cover;
+    background-position: center;
+  }
+ #section-03{
+    width:100%;
+    height:450px;
+    /* border:2px solid red; */
+    text-align: center;
+    margin-top: 20px;
+
+ }
+ #card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:30px;
+ }
+ .card1{
+   width:250px;
+   height:340px;
+   background-color:rgb(198, 192, 192);
+ }
+ /*  */
+ #c1{
+    background-image: url(html.jpg);
+    background-size: 250px 110px;
+    background-repeat: no-repeat;
+ }
+ #text-p>h1{
+   font-size:19px;
+  padding-top: 120px;
+ }
+ #text-p>p{
+  padding-top: 10px;
+  word-spacing: 10px;
+  color: white;
+  padding-bottom: 8px;
+ }
+ .btn{
+  width:250px;
+  height:40px;
+  background-color: red;
+  border:none;
+  color:white;
+  font-size:15px;
+  border-radius: 10px;
+ }
+ .btn:hover{
+  background-color: blue;
+  cursor: pointer;
+  /*  */
+ }
+ #c2{
+    background-image: url(cssimg.jpg);
+    background-size: 250px 110px;
+    background-repeat: no-repeat;
+ }
+ #c3{
+  background-image: url(JavaScript.jpg);
+  background-size: 250px 110px;
+  background-repeat: no-repeat;
+ }
+ #c4{
+  background-image: url(bootstrap.png);
+  background-size: 250px 110px;
+  background-repeat: no-repeat;
+ }
+ #footer{
+    width:100%;
+    height:100px;
+    background-color: cadetblue;
+    text-align: center;
+    margin-top: 30px;
+ }
+ 
+ .footer1{
+    color: white;
+    padding-top: 20px;
+    margin-top:20px;
+ }
+ .href{
+    color:black;
+    text-decoration: none;
+    font-weight: 700;
+    text-decoration: underline;
+ }
+ .fly{
+    color:rgb(243, 202, 202);
+    text-decoration: none;
+ }
